@@ -13,12 +13,19 @@ Use PHP CodeSniffer (`phpcs`) with the PSR-2 standard:
 
 ### Javascript
 
-Follow the jslint style guidelines with the following options.
+Follow the `jslint` (http://jslint.com/) style guidelines with the following
+options.
 
 * 80 maximum line length
 * Assume a browser
 
 See the included jslintrc file for use with the command line `jslint` tool.
+
+
+## CSS
+
+All CSS should pass `csslint`. (http://csslint.net/). There is a command line
+utility for this tool.
 
 
 ## git pre-commit hook

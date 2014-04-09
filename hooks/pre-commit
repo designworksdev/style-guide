@@ -1,3 +1,19 @@
-#/bin/sh
+#!/bin/bash
 
-# TODO: Implement
+git diff --cached --diff-filter=ACM --name-only \
+| grep '\.\(php\|js\|css\)$' \
+| while read file; do
+	case "$(echo "$file" | awk -F . '{print $NF}')" in
+		php)
+			phpcs --standard=PSR2 "$file"
+		;;
+
+		js)
+			jslint "$file"
+		;;
+
+		css)
+			csslint "$file"
+		;;
+	esac
+done

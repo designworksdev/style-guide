@@ -1,5 +1,6 @@
 {
     "browser": true,
     "indent": 4,
-    "maxlen": 80
+    "maxlen": 80,
+    "vars": true
 }

@@ -1,0 +1,11 @@
+.class-name {
+    background-color: white;
+}
+
+.parent > .direct-children {
+  border: 1px solid black;
+}
+
+.parent .all-children {
+  border: 1px solid grey;
+}
