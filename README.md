@@ -13,8 +13,8 @@ Use PHP CodeSniffer (`phpcs`) with the PSR-2 standard:
 
 ### Javascript
 
-Follow the `jslint` (http://jslint.com/) style guidelines with the following
-options.
+All javascript should pass `jslint` (http://jslint.com/). The additional options
+used are:
 
 * 80 maximum line length
 * Assume a browser
