@@ -30,6 +30,6 @@ utility for this tool.
 
 ## git pre-commit hook
 
-If you have `phpcs` (PHP CodeSniffer), `cssling` and `jslint` installed on your
+If you have `phpcs` (PHP CodeSniffer), `csslint` and `jslint` installed on your
 system and would like all your git commits to be checked for mishaps, install
 `hooks/pre-commit` to your `.git/hooks` directory.
