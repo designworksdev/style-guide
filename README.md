@@ -22,7 +22,7 @@ used are:
 See the included jslintrc file for use with the command line `jslint` tool.
 
 
-## CSS
+### CSS
 
 All CSS should pass `csslint`. (http://csslint.net/). There is a command line
 utility for this tool.
