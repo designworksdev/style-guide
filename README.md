@@ -21,8 +21,8 @@ Do not:
 
     Some really long commit message all on one line that is not concise and to the point.
 
-Commit message at a glance should let others know exactly what changes you have
-made.
+Commit messages, at a glance, should let others know exactly what changes you
+have made in that commit.
 
 
 ## Code style
