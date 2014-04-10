@@ -1,5 +1,30 @@
 # Designworks Contribution Guidelines
 
+## Source control
+
+Most projects at Designworks will be using the `git` source version control. You
+should have a rudimentary understanding of `git` before working on projects.
+
+### Git commits
+
+Commit messages and comments should be *one short line* followed by *further
+explanation in a separate paragraph*.
+
+This is correct:
+
+    Style changes to the main slider
+
+    Made the border red, and the background blue. Beautiful. Also tweaked some
+    settings in magical jquery plugins.
+
+Do not:
+
+    Some really long commit message all on one line that is not concise and to the point.
+
+Commit message at a glance should let others know exactly what changes you have
+made.
+
+
 ## Code style
 
 ### PHP
@@ -41,7 +66,7 @@ line:
     }
 
 
-## git pre-commit hook
+### git pre-commit hook
 
 If you have `phpcs` (PHP CodeSniffer), `csslint` and `jslint` installed on your
 system and would like all your git commits to be checked for mishaps, install
