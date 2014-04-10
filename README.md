@@ -27,6 +27,14 @@ See the included jslintrc file for use with the command line `jslint` tool.
 All CSS should pass `csslint`. (http://csslint.net/). There is a command line
 utility for this tool.
 
+In addition identation should be 4 spaces per level, with a single property per
+line:
+
+    .class-name {
+        background-color: white;
+        border: 1px solid black;
+    }
+
 
 ## git pre-commit hook
 
