@@ -38,18 +38,8 @@ Use PHP CodeSniffer (`phpcs`) with the PSR-2 standard:
 
 ### JavaScript
 
-All JavaScript should pass `jslint` (http://jslint.com/). The additional options
-used are:
-
-* Assume a browser
-* 80 maximum line length
-* 4 space indentation
-* `nomen` - Allow dangling `_` characters
-* Allow TODO comments
-* Allow unused function parameters
-* Allow multiple `var` statements
-
-See the included jslintrc file for use with the command line `jslint` tool.
+All JavaScript should pass our custom `jscs` and `jshint` checks. See `git
+pre-commit hook` for how to install these checks.
 
 
 ### CSS
@@ -68,6 +58,7 @@ line:
 
 ### git pre-commit hook
 
-If you have `phpcs` (PHP CodeSniffer), `csslint` and `jslint` installed on your
-system and would like all your git commits to be checked for mishaps, install
-`hooks/pre-commit` to your `.git/hooks` directory.
+The provided `package.json` can be copied and modified to any git project,
+installed with `npm install` then used to check all commits for correct style.
+This will install a `pre-commit` hook into `.git/hooks/` that checks all changed
+files for correct syntax and style.
