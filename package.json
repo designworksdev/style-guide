@@ -1,0 +1,29 @@
+{
+  "name": "style-guide",
+  "version": "0.1.0",
+  "description": "Example package.json for Designworks projects",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jscs": "git://github.com/tim-smart/node-jscs.git#require-single-space-before-operators",
+    "jshint": "^2.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "ln -sf '../../hooks/pre-commit' .git/hooks/pre-commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/designworksdev/style-guide.git"
+  },
+  "keywords": [],
+  "author": "Tim Smart <tim.smart@designworks.co.nz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/designworksdev/style-guide/issues"
+  },
+  "homepage": "https://github.com/designworksdev/style-guide"
+}
