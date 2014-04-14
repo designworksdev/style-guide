@@ -4,13 +4,16 @@ function testFunction(arg1, arg2) {
 
     var test = {
         one: 1,
-        two: 2
+        two: 2,
+        three: {
+        }
     };
 
-    var i = null;
+    var i = 0;
+
     var arg2Length = arg2.length;
     var item = null;
-    for (i = 0; i < arg2Length; i += 1) {
+    for (; i < arg2Length; i += 1) {
         item = arg2[i];
         test.three = item;
     }

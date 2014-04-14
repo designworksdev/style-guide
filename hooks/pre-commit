@@ -9,14 +9,14 @@ git diff --cached --diff-filter=ACM --name-only \
 		;;
 
 		js)
-			jslint "$file"
+			./node_modules/.bin/jshint "$file" && \
+				./node_modules/.bin/jscs "$file"
 		;;
 
 		css)
 			csslint "$file"
 		;;
 	esac
-
 
 	if [ $? -ne 0 ]; then
 		exit 1
