@@ -27,6 +27,7 @@
     },
     "validateIndentation": 4,
     "validateQuoteMarks": "'",
+    "maximumLineLength": 80,
 
     "requireCamelCaseOrUpperCaseIdentifiers": true,
     "requireCapitalizedConstructors": true,
